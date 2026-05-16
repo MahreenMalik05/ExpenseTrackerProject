@@ -1,7 +1,4 @@
-# Expense Tracker Project
-
 expenses = []
-
 # Function to add expense
 def add_expense():
     category = input("Enter category: ")

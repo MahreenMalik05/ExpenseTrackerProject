@@ -1,13 +1,4 @@
 import unittest
-
-# ─────────────────────────────────────────────
-#  We import only the pure-logic functions.
-#  The main menu loop uses input(), so we keep
-#  it out of tests and test the helpers directly.
-# ─────────────────────────────────────────────
-
-# ── helper functions copied / adapted from expense_tracker.py ──
-
 def calculate_total(expenses):
     """Return the sum of all expense amounts."""
     total = 0
@@ -41,11 +32,6 @@ def add_expense(expenses, category, amount, date):
         return False
     expenses.append({"category": category, "amount": amount, "date": date})
     return True
-
-
-# ══════════════════════════════════════════════
-#  Test Suite
-# ══════════════════════════════════════════════
 
 class TestAddExpense(unittest.TestCase):
 
