@@ -1,0 +1,5 @@
+| Bug ID | Description                    | Cause                    | Fix                |
+| ------ | ------------------------------ | ------------------------ | ------------------ |
+| BUG01  | Program crashes on text amount | Invalid float conversion | Used try-except    |
+| BUG02  | Invalid delete index           | Out of range             | Added validation   |
+| BUG03  | Empty expense list issue       | No condition             | Added if statement |

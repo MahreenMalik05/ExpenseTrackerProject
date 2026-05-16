@@ -1,0 +1,7 @@
+| Test Case ID | Function       | Input         | Expected Result | Actual Result | Status |
+| ------------ | -------------- | ------------- | --------------- | ------------- | ------ |
+| TC01         | Add Expense    | Food, 500     | Expense added   | Expense added | Pass   |
+| TC02         | Invalid Amount | abc           | Error message   | Error shown   | Pass   |
+| TC03         | View Expenses  | Existing data | Show expenses   | Correct       | Pass   |
+| TC04         | Delete Expense | 1             | Expense removed | Removed       | Pass   |
+| TC05         | Invalid Menu   | 9             | Invalid choice  | Correct       | Pass   |
